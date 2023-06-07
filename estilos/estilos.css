@@ -1,0 +1,70 @@
+.container2 {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+  }
+  .hijo {
+    padding: 1rem;
+  }
+#logoT, .tituloIntegrantes{
+    color: yellow;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 25px;
+}
+
+iframe{
+    width: 400px;
+    height: 400px;
+}
+.banner{
+    background-color: #212529;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+h1{
+  font-family: 'Edu QLD Beginner', cursive;
+  color:yellow;
+}
+.tituloDestac{
+  font-family: 'Edu QLD Beginner', cursive;
+  color:yellow;
+  font-size: 20px;
+}
+.custom-color.navbar-toggler{
+  border-color: yellow;
+}
+.navbar-dark .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.banner-index{
+  border-radius: 5px;
+}
+
+/* Responsive galeria de img/videos */
+  @media screen and (max-width: 600px) {
+    .container2 {
+      display: grid;
+    padding: 1rem;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(4, 400px);
+    justify-content: center;
+    }
+    iframe{
+      width: 340px;
+    }
+    div.hijo{
+      width: 370px;
+    }
+    .hijo{
+      padding: 2rem;
+    }
+    .img-resp{
+      margin-left: 15px;
+    }
+}
